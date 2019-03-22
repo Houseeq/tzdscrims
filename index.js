@@ -14,7 +14,7 @@ bot.commands = new Discord.Collection();
 
 // import bot settings (data)
 const prefix = settings.prefix;
-const token = settings.token;
+const token = process.env.TOKEN;
 const owner = settings.owner
 
 // read commands files
